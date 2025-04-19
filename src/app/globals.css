@@ -1,26 +1,51 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.background {
+  background-image: url('/bg.webp');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-gray-50;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold text-white;
+}
+
+a {
+  @apply py-5;
+}
+
+section {
+  @apply max-w-4xl mx-auto my-5 rounded-md border-4 border-pink-400 shadow-lg text-white;
+  @apply transition-transform duration-500 ease-in-out transform hover:scale-105;
+  background-color: rgba(128, 0, 128, 0.6);
+}
+
+/* From Uiverse.io by Navarog21 */ 
+button {
+  @apply relative w-40 h-14 border-4 border-purple-700 bg-transparent text-white font-bold text-lg rounded-md cursor-pointer transition-all duration-1000;
+}
+
+button::after {
+  content: "";
+  @apply absolute top-[-10px] left-[3%] w-[95%] h-[40%] bg-black transition-transform duration-500 origin-center;
+}
+
+button::before {
+  content: "";
+  @apply absolute top-[80%] left-[3%] w-[95%] h-[40%] bg-black transition-transform duration-500 origin-center;
+}
+
+button:hover::before, button:hover::after {
+  @apply scale-0;
+}
+
+button:hover {
+  @apply shadow-inner;
+  background: radial-gradient(circle, #6b21a8, #000000); /* Gradient from sides to center with purple */
+  transition: background 0.5s ease-in-out; /* Smooth transition for gradient */
 }
