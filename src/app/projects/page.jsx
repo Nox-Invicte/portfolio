@@ -41,7 +41,7 @@ export default function Home() {
           </p>
           <p className="text-lg"><a href="https://github.com/Nox-Invicte/Flappy-Bird/releases" className="hover:underline text-blue-400 py-2">Flappy Bird Game</a></p>
         </div>
-        <div className="w-700 h-45 overflow-hidden border-4 border-gray-300 hover:scale-130 transition-transform duration-500 ease-in-out">
+        <div className="w-642 h-45 overflow-hidden border-4 border-gray-300 hover:scale-130 transition-transform duration-500 ease-in-out">
           <Image
             src="/flappy.png"
             alt="Flappy Bird"
