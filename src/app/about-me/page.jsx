@@ -16,7 +16,7 @@ export default function Home() {
 
       {/* Image Section */}
       <section className="flex justify-center py-10">
-        <div className="w-42 h-48 rounded-full overflow-hidden border-4 border-gray-300">
+        <div className="w-42 h-48 rounded-full overflow-hidden border-4 border-gray-300 hover:scale-115 transition-transform duration-300 ease-in-out">
           <Image
             src="/photo.jpg"
             alt="Profile Picture"
