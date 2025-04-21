@@ -11,12 +11,12 @@ export default function Home() {
     <div>
       {/* Header Section */}
       <header className="text-center py-20">
-        <h1 className="text-9xl leading-relaxed "> Projects </h1>
+        <h1 className="text-5xl md:text-7xl lg:text-9xl leading-relaxed"> Projects </h1>
       </header>
 
       {/* Image Section */}
-      <section id="projects" className="flex items-center py-10 px-5">
-        <div className="w-700 h-87 overflow-hidden border-4 border-gray-300 mr-8 hover:scale-130 transition-transform duration-500 ease-in-out">
+      <section id="projects" className="flex flex-col md:flex-row items-center py-10 px-5">
+        <div className="w-full md:w-700 h-87 overflow-hidden border-4 border-gray-300 mb-5 md:mb-0 md:mr-8 hover:scale-130 transition-transform duration-500 ease-in-out">
           <Image
             src="/space.png"
             alt="Space Invaders"
@@ -26,22 +26,26 @@ export default function Home() {
           />
         </div>
         <div>
-          <h2 className="text-3xl font-bold mb-4 ">Space Invaders</h2>
-          <p className="text-lg">
+          <h2 className="text-2xl md:text-3xl font-bold mb-4">Space Invaders</h2>
+          <p className="text-base md:text-lg">
             A retro game called Space Invaders, developed using Pygame. The objective of the game is to defeat waves of descending aliens with a horizontally moving laser by earning points. The player controls a ship by moving it horizontally across the bottom of the screen and firing at descending aliens. The goal is to earn as many points as possible by destroying the aliens before they destory the ship. The game ends when the player loses all their lives. The game features multiple levels, each with increasing difficulty.
-            </p>
-            <p className="text-lg"><a href="https://github.com/Nox-Invicte/Space-Invaders/releases" className="hover:underline text-blue-400 py-2">Space Invaders Game</a></p>
+          </p>
+          <p className="text-base md:text-lg">
+            <a href="https://github.com/Nox-Invicte/Space-Invaders/releases" className="hover:underline text-blue-400 py-2">Space Invaders Game</a>
+          </p>
         </div>
       </section>
-      <section id="projects" className="flex items-center py-10 px-5">
-        <div className="mr-8">
-          <h2 className="text-3xl font-bold mb-4 ">Flappy Bird</h2>
-          <p className="text-lg">
+      <section id="projects" className="flex flex-col md:flex-row items-center py-10 px-5">
+        <div className="mb-5 md:mb-0 md:mr-8">
+          <h2 className="text-2xl md:text-3xl font-bold mb-4">Flappy Bird</h2>
+          <p className="text-base md:text-lg">
             A Flappy Bird game developed using Pygame. The objective of the game is to navigate a bird through a series of pipes without hitting them. The player controls the bird by pressing the spacebar, which makes the bird flap its wings and rise. The goal is to earn as many points as possible by passing through the pipes. The game ends when the player hits a pipe.
           </p>
-          <p className="text-lg"><a href="https://github.com/Nox-Invicte/Flappy-Bird/releases" className="hover:underline text-blue-400 py-2">Flappy Bird Game</a></p>
+          <p className="text-base md:text-lg">
+            <a href="https://github.com/Nox-Invicte/Flappy-Bird/releases" className="hover:underline text-blue-400 py-2">Flappy Bird Game</a>
+          </p>
         </div>
-        <div className="w-642 h-45 overflow-hidden border-4 border-gray-300 hover:scale-130 transition-transform duration-500 ease-in-out">
+        <div className="w-full md:w-700 h-45 overflow-hidden border-4 border-gray-300 hover:scale-130 transition-transform duration-500 ease-in-out">
           <Image
             src="/flappy.png"
             alt="Flappy Bird"

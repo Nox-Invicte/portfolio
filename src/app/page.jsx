@@ -11,16 +11,20 @@ export default function Home() {
     <div>
       {/* Header Section */}
       <header className="text-center py-20">
-        <h1 className="text-9xl leading-relaxed ">
+        <h1 className="text-5xl md:text-7xl lg:text-9xl leading-relaxed">
           Sarthak Srivastava
         </h1>
-        <h2 className="text-5xl"><span className="inline-block transition-transform duration-500 ease-in-out transform hover:scale-115">Programmer</span><span className="inline-block px-7">|</span><span className="inline-block transition-transform duration-500 ease-in-out transform hover:scale-115">Student</span></h2>
+        <h2 className="text-2xl md:text-4xl lg:text-5xl">
+          <span className="inline-block transition-transform duration-500 ease-in-out transform hover:scale-115">Programmer</span>
+          <span className="inline-block px-3 md:px-7">|</span>
+          <span className="inline-block transition-transform duration-500 ease-in-out transform hover:scale-115">Student</span>
+        </h2>
       </header>
 
       {/* About Me Section */}
       <section id="about-me" className="py-10 px-5">
-        <h2 className="text-3xl font-bold mb-4 ">About Me</h2>
-        <p className="text-lg">
+        <h2 className="text-2xl md:text-3xl font-bold mb-4">About Me</h2>
+        <p className="text-base md:text-lg">
           I am a passionate developer with a love for creating web applications.
         </p>
       </section>

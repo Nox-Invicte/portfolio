@@ -28,13 +28,12 @@ export default function RootLayout({ children }) {
           height: "150vh",}}>
         {/* NavBar */}
         
-        <nav className="bg-black text-white py-4 px-6 flex round-md justify-between items-center text-lg ">
-          <div className="text-3xl font-bold font-serif">S.S.</div>
-          <ul className="flex space-x-4">
-            <li><a className=" text-lg px-9 rounded-md cursor-pointer hover:bg-gradient-to-r from-transparent via-purple-500 to-transparent transition-colors duration-1000" href="/.." >Home</a></li>
-            <li><a className=" text-lg px-9 rounded-md cursor-pointer hover:hover:bg-gradient-to-r from-transparent via-purple-500 to-transparent transition-colors duration-1000" href="/about-me" >About Me</a></li>
-            <li><a className=" text-lg px-9 rounded-md cursor-pointer hover:bg-gradient-to-r from-transparent via-purple-500 to-transparent transition-colors duration-1000" href="/projects" >Projects</a></li>
-           
+        <nav className="bg-black text-white py-4 px-6 flex flex-col md:flex-row justify-between items-center text-lg">
+          <div className="text-2xl md:text-3xl font-bold font-serif">S.S.</div>
+          <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 mt-4 md:mt-0">
+            <li><a className="text-lg px-4 md:px-9 rounded-md cursor-pointer hover:bg-gradient-to-r from-transparent via-purple-500 to-transparent transition-colors duration-1000" href="/..">Home</a></li>
+            <li><a className="text-lg px-4 md:px-9 rounded-md cursor-pointer hover:bg-gradient-to-r from-transparent via-purple-500 to-transparent transition-colors duration-1000" href="/about-me">About Me</a></li>
+            <li><a className="text-lg px-4 md:px-9 rounded-md cursor-pointer hover:bg-gradient-to-r from-transparent via-purple-500 to-transparent transition-colors duration-1000" href="/projects">Projects</a></li>
           </ul>
         </nav>
         {/* Main Content */}
