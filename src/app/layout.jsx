@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
         {/* NavBar */}
         
         <nav className="bg-black text-white py-4 px-6 flex flex-col md:flex-row justify-between items-center text-lg">
-          <div className="text-2xl md:text-3xl font-bold font-serif">S.S.</div>
+          <div className="text-2xl md:text-3xl font-bold font-serif"><a href="/..">S.S.</a></div>
           <button
             className="md:hidden text-lg px-4 py-2 rounded-md bg-purple-500 hover:bg-purple-700 transition-colors duration-300"
             onClick={() => setMenuOpen(!menuOpen)}
