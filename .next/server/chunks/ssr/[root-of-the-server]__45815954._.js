@@ -95,10 +95,10 @@ function RootLayout({ children }) {
             },
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                    className: "bg-black text-white py-4 px-6 flex round-md justify-between items-center text-lg ",
+                    className: "bg-black text-white py-4 px-6 flex flex-col md:flex-row justify-between items-center text-lg",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "text-3xl font-bold font-serif",
+                            className: "text-2xl md:text-3xl font-bold font-serif",
                             children: "S.S."
                         }, void 0, false, {
                             fileName: "[project]/src/app/layout.jsx",
@@ -106,11 +106,11 @@ function RootLayout({ children }) {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                            className: "flex space-x-4",
+                            className: "flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 mt-4 md:mt-0",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        className: " text-lg px-9 rounded-md cursor-pointer hover:bg-gradient-to-r from-transparent via-purple-500 to-transparent transition-colors duration-1000",
+                                        className: "text-lg px-4 md:px-9 rounded-md cursor-pointer hover:bg-gradient-to-r from-transparent via-purple-500 to-transparent transition-colors duration-1000",
                                         href: "/..",
                                         children: "Home"
                                     }, void 0, false, {
@@ -125,7 +125,7 @@ function RootLayout({ children }) {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        className: " text-lg px-9 rounded-md cursor-pointer hover:hover:bg-gradient-to-r from-transparent via-purple-500 to-transparent transition-colors duration-1000",
+                                        className: "text-lg px-4 md:px-9 rounded-md cursor-pointer hover:bg-gradient-to-r from-transparent via-purple-500 to-transparent transition-colors duration-1000",
                                         href: "/about-me",
                                         children: "About Me"
                                     }, void 0, false, {
@@ -140,7 +140,7 @@ function RootLayout({ children }) {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        className: " text-lg px-9 rounded-md cursor-pointer hover:bg-gradient-to-r from-transparent via-purple-500 to-transparent transition-colors duration-1000",
+                                        className: "text-lg px-4 md:px-9 rounded-md cursor-pointer hover:bg-gradient-to-r from-transparent via-purple-500 to-transparent transition-colors duration-1000",
                                         href: "/projects",
                                         children: "Projects"
                                     }, void 0, false, {
